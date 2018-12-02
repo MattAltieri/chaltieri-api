@@ -13,5 +13,9 @@ namespace Chaltieri.Api.Controllers
     public class ChatController : ControllerBase
     {
         
+        [HttpGet]
+        public async Task<IEnumerable<Chat>> Chats() {
+            
+        }
     }
 }
